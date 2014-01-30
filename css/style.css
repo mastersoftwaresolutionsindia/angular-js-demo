@@ -1,0 +1,168 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+body
+{
+	font-size:12px;
+	color:#333;
+	background:url(../img/background.png) repeat;
+
+	font-family:Verdana, Geneva, sans-serif;
+}
+.container
+{
+	margin-top:100px;
+}
+
+.view-container
+{
+	width:482px;
+	min-height:486px;
+	margin:0 auto;
+	background:url(../img/login-background.png) no-repeat;
+	
+}
+.user-login
+{
+	color:#36383c;
+	padding:10px;
+	text-align:center;
+	margin-top:20px;
+	font-family:Verdana, Geneva, sans-serif;
+	line-height:10px;
+	font-size:20px;
+	margin-bottom:2px;
+	border-radius:10px 10px 0px 0px;
+}
+.fil-dtl
+{
+	color:#7c818b;
+	font-size:16px;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+}
+.clip-container
+{
+	text-align:center;
+}
+.clip
+{
+	display: inline-block;
+    margin-top: -71px;
+    padding: 50px 37px;
+    width: auto;
+	background:url(../img/clip.png) no-repeat;
+}
+.form-inner
+{
+	padding:40px 46px;
+	position:relative;
+}
+
+.input-box input
+{
+    display: inline-block;
+    padding:28px 15px 28px 60px;
+    width: 100%;
+	font-size:18px;
+	font-family:Verdana, Geneva, sans-serif;
+	border:none;
+}
+.email
+{
+	background:url(../img/user.png) 15px center no-repeat #e5e7e9;
+	margin-bottom:2px;
+	border-bottom:1px solid #ccc !important;
+}
+.password
+{
+	background:url(../img/password.png) 15px center no-repeat #e5e7e9;
+}
+.login-button
+{
+	background: url("../img/punch-in.png") no-repeat ;
+	background-size:100% 100%;
+    border: medium none;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 34px;
+    margin-top: 40px;
+    padding: 15px 38px;
+    text-shadow: 0 0 3px #666;
+    width: 97% !important;
+}
+.login-button:hover
+{
+	background: url("../img/button-hover.png") no-repeat ;
+	background-size:100% 100%;
+}
+.input-holder
+{
+	width:100%;
+	display:inline-block;
+	margin-bottom:20px;
+	border:1px solid #ccc;
+	border-radius:5px 5px 5px 5px; 
+}
+.ng-scope
+{
+	text-align:center;
+}
+.welcome
+{
+	padding:20px;
+	border:1px solid #ccc;
+	margin:20px 20px 20px 17px;
+	position:relative;
+	min-height:404px;
+	background:#fff;
+}
+.welcome-text
+{
+	color:#60aef7;
+	font-size:16px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+.lgout
+{
+	position:absolute;
+	bottom:10px;
+	right:10px;
+}
+.in-btn
+{
+	background: url("../img/punch-in.png") no-repeat ;
+	background-size:100% 100%;
+    border: medium none;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 34px;
+    margin-top: 40px;
+    padding: 15px 38px;
+    text-shadow: 0 0 3px #666;
+    width: 97% !important;
+}
+.in-btn:hover
+{
+	background: url("../img/button-hover.png") no-repeat ;
+	background-size:100% 100%;
+	}
+.login-message
+{
+	font-size:15px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#209381;
+	margin-top:10px;
+	width:100%;
+	display:inline-block;
+}
+.form-inner p {
+    left: 2px;
+    position: absolute;
+    right: 4px;
+	color:#ff0000;
+	font-size:16px;
+}

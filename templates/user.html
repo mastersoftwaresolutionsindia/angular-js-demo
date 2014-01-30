@@ -1,0 +1,11 @@
+ <div class="welcome"><div class="welcome-text">
+   {{dine}}
+ </div>
+   <div class="mainHeading">
+     <h2>Punch Your Time</h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </div>
+   <div><h4>Current Time</h4>  {{dt | date:'dd-MMMM-yyyy'}} || {{dt | date: 'h:mm:ss a'}}</div>
+   <button type="submit" ng-show="in == 'in'" id="in" style="width:110px;" ng-click="loginTimeIn()" class="in-btn">Punch In</button>
+   <button type="submit" ng-show="in == 'out'" id="out" style="width:110px;" ng-click="loginTimeOut()" class="in-btn">Punch Out</button>
+   <div class="login-message"> {{arr}} </div>
+   <a href="#/" class="lgout">Logout</a></div>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="form">
+<head>
+    <title>Angularjs Demo Master Software Solutions</title>
+    <script type="text/javascript" src="lib/angular.js"></script>
+    <script type="text/javascript" src="js/controller.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+</head>
+<body>
+<div class="container">
+    <div class="view-container">
+        <div class="clip-container">
+            <div class="clip"></div>
+        </div>
+       <div ng-controller="AttendenceController">
+        <!--  rendered template of the current route -->
+          <ng-view></ng-view>
+
+       </div>
+    </div>
+</div>
+</body>
+</html>
